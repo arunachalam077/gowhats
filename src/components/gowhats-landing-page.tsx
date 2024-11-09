@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react'
 import { MessageSquare, Globe, Zap, Image as ImageIcon, Webhook, BarChart,  } from 'lucide-react'
-import { motion, useScroll, useTransform, useMotionValue, AnimatePresence } from 'framer-motion'
+import { motion, useScroll, useTransform,  AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import {
